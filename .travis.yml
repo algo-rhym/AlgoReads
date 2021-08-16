@@ -3,7 +3,7 @@ jdk:
   - openjdk8
 
 script:
-  - ./gradlew check
+  - AlgoReads/gradlew check
 
 
 deploy:
