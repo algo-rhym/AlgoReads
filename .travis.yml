@@ -6,7 +6,7 @@ script:
   - AlgoReads/gradlew check
 
 
-deploy:
-  provider: heroku
-  api_key: $HEROKU_TOKEN
-  app: ""
+#deploy:
+#  provider: heroku
+#  api_key: $HEROKU_TOKEN
+#  app: ""
