@@ -33,7 +33,7 @@ jar {
 	manifest {
 		attributes(
 
-				'Main-Class': 'C:\\Users\\jimpacx\\Documents\\JavaProjects\\AlgoBooks\\AlgoReads\\.idea\\build\\classes\\java\\main\\com\\Algo\\AlgoReads\\AlgoReadsApplication.class'
+				'Main-Class': 'com.Algo.AlgoReads.AlgoReadsApplication'
 		)
 	}
 }
