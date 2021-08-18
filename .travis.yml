@@ -6,5 +6,7 @@ before_install:
 
 script:
   - ./gradlew check
-#  api_key: $HEROKU_TOKEN
-#  app: ""
+deploy:
+  provider: heroku
+  api_key: $HEROKU_TOKEN
+  app: "algo-reads"
