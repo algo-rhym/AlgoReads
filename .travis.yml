@@ -3,6 +3,6 @@ jdk:
   - openjdk8
 
 script:
-  - AlgoReads/gradlew check
+  - ./gradlew check
 #  api_key: $HEROKU_TOKEN
 #  app: ""
