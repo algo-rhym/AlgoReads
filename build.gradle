@@ -28,6 +28,16 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
+
+jar {
+	manifest {
+		attributes(
+
+				'Main-Class': 'C:\\Users\\jimpacx\\Documents\\JavaProjects\\AlgoBooks\\AlgoReads\\.idea\\build\\classes\\java\\main\\com\\Algo\\AlgoReads\\AlgoReadsApplication.class'
+		)
+	}
+}
+
 test {
 	useJUnitPlatform()
 }
