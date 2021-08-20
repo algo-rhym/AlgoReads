@@ -34,7 +34,7 @@ dependencies {
 jar {
 	manifest {
 		attributes(
-				'Class-Path': configurations.compile.collect { it.getName() }.join(' '),
+				'Class-Path':'C:/Users/jimpacx/Documents/JavaProjects/AlgoBooks/AlgoReads/build/classes/java/main/com/Algo/AlgoReads',
 				'Main-Class': 'com.Algo.AlgoReads.AlgoReadsApplication'
 		)
 	}
