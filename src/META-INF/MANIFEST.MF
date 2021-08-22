@@ -1,5 +1,0 @@
-Manifest-Version: 1.0
-Main-Class: com.Algo.AlgoReads.AlgoReadsApplication
-Class-Path: C:\Users\jimpacx\Documents\JavaProjects\AlgoBooks\AlgoReads\
- src\main\java\com\Algo\AlgoReads
-
